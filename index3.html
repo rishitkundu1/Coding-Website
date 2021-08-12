@@ -1,0 +1,130 @@
+<html>
+    <head>
+        <title>Dashboard</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <!-- Font awesome  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+        <link href="https://kit-pro.fontawesome.com/releases/v5.15.1/css/pro.min.css" rel="stylesheet">
+        <!-- ----- -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="main.js"></script>
+        <!-- Bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <!-- Google Fonts  -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Merriweather&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prompt&family=Ubuntu&display=swap" rel="stylesheet">
+        <!-- ----- -->
+    </head>
+    <body>
+          <div class="wrapper">
+                <div class="sliding-bar">
+                      <ul class="menu">
+                        <li class="menu-items"><a href="index.html"><i class="far fa-id-card"></i>Dashboard</a></li>
+                        <li class="menu-items"><a href="classesAndCalender.html"><i class="far fa-calendar-alt"></i>Classes and Calender</a></li>
+                        <li class="menu-items"><a href="#"><i class="far fa-file-alt"></i>My Projects</a></li>
+                        <li class="menu-items"><a href="quizzes.html"><i class="far fa-question-circle"></i>My Quizzes</a></li>
+                        <li class="menu-items"><a href="report-card.html"><i class="far fa-clipboard-list"></i>My Report Card</a></li>
+                        <li class="menu-items"><a href="activities.html"><i class="far fa-book"></i>Activities</a></li>
+                        <li class="menu-items"><a href="badges.html"><i class="far fa-award"></i>Badges</a></li>
+                      </ul>
+                </div>
+          </div>
+          <div class="content">
+                <div class="sidebar">
+                      <h1 class="name">Pranit Kundu</h1>
+                      <div class="p-h-image">
+                        <img id="hat" src="Pranit-photo-green-hat.png" alt="Hat">
+                      </div>
+                      <h3><span class="points">0 points</span>|<span class="hat-level">Green Hat</span></h3>
+                      <div class="progress">
+                            <img src="https://main-ui.whjr.dev/static/media/hats-green-hat@3x.6a8f543b.png" alt="1st-hat" class="first-hat">
+                            <div class="progress-bar"><span class="blue"></span></div>
+                            <img src="https://main-ui.whjr.dev/static/media/hats-brown-hat@3x.c312a11a.png" alt="2nd-hat" class="second-hat">
+                      </div>
+                      <button class="btn-classes-and-projects-more">6 classes and 6 projects more&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-right">&nbsp;</i></button>
+                      <button class="btn-view-progress"><a href="hats.html">View progress&nbsp;&nbsp;&nbsp;<i class="fas fa-caret-right">&nbsp;</i></a></button>
+                </div>
+                <div class="right-content">
+                      <div class="top">
+                            <div class="top-left">
+                                  <h1><span class="class-number">C5:&nbsp;</span>Mobile Application</h1>
+                                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quasi error ex voluptates qui ia, iure dolor....<a href="#">View Details</a></p>
+                                  <hr>
+                                  <div class="bottom-area">
+                                        <i class="fas fa-stopwatch"></i>
+                                        <button class="start-class"><a href="class.html">Start Class</a></button>
+                                  </div>
+                            </div>
+                            <div class="top-right">
+                                  <h1>This months top activity</h1>
+                                  <h2>Quote Maker App</h2>
+                                  <h3>Complete this activity on your <br>own and earn extra points</h3>
+                                  <button class="btn-start-activity"><a href="#">Start This Activity</a></button>
+                            </div>
+                      </div>
+                      <div class="bottom">
+                            <div class="project_bar">
+                                  <ul class="project_menu">
+                                        <li class="pending"><a href="index.html"><i class="fas fa-clock"></i>Pending Projects</a></li>
+                                        <li class="submitted"><a href="index2.html"><i class="fas fa-arrow-alt-circle-up"></i>Submitted Projects</a></li>
+                                        <li class="active-project-bar completed"><a href="index3.html"><i class="fas fa-check-circle"></i>Completed Projects</a></li>
+                                  </ul>
+                            </div>
+                            <div class="projects-pending">
+                                  <div class="c-project-1">
+                                          <h3 id="completed-project-project-1-project-num"></h3>
+                                          <img id="completed-project-project-1-project-img" src="" class="project-1-img">
+                                          <h1 id="completed-project-project-1-project-title"></h1>
+                                          <hr>
+                                          <div class="bottom-of-project" id="completed-project-project-1-project-points">
+                                                <div class="points-for-project-1">
+                                                      <h3>Earn</h3>
+                                                      <img src="badge100.jpg" class="points-img">
+                                                </div>
+                                        </div>
+                                  </div>
+                                  <div class="c-project-2">
+                                    <h3 id="completed-project-project-2-project-num"></h3>
+                                    <img id="completed-project-project-2-project-img" src="" class="project-2-img">
+                                    <h1 id="completed-project-project-2-project-title"></h1>
+                                    <hr>
+                                    <div class="bottom-of-project" id="completed-project-project-2-project-points">
+                                          <div class="points-for-project-2">
+                                                <h3>Earn</h3>
+                                                <img src="badge100.jpg" class="points-img">
+                                          </div>
+                                  </div>
+                            </div>
+                            <div class="c-project-3">
+                              <h3 id="completed-project-project-3-project-num"></h3>
+                              <img id="completed-project-project-3-project-img" src="" class="project-3-img">
+                              <h1 id="completed-project-project-3-project-title"></h1>
+                              <hr>
+                              <div class="bottom-of-project" id="completed-project-project-3-project-points">
+                                    <div class="points-for-project-3">
+                                          <h3>Earn</h3>
+                                          <img src="badge100.jpg" class="points-img">
+                                    </div>
+                            </div>
+                      </div>
+                             <button id="completed-project-project-3-view-all-project-button" class="c-view-all-project"><a href="#">View all Projects <i class="fas fa-caret-right"></i></a></button>
+                            </div>
+                      </div>
+                </div>
+          </div>
+    </body>
+</html>

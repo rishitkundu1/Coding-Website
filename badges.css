@@ -1,0 +1,287 @@
+body{
+      display: flex;
+      background-color: rgb(163, 169, 170);
+}
+*{
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-decoration: none;
+      box-sizing: border-box;
+}
+.wrapper .sliding-bar{
+      width: 50px;
+      background-color: #F4F6F7;
+      margin: 5px;
+      height: 100%;
+      position: fixed;
+      transition: 0.5s ease;
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wrapper .sliding-bar:hover{
+      width: 330px;
+}
+.wrapper .sliding-bar ul li{
+      white-space: nowrap;
+      font-size: 25px;
+}
+.wrapper .sliding-bar ul li:hover{
+      background-color: #FFD58B ;
+}
+.wrapper .sliding-bar ul {
+      overflow: hidden;
+}
+.wrapper .sliding-bar ul li .fas{
+      width: 50px;
+      text-align: center;
+      margin: 15px 0;
+      margin-left: -10px;
+}
+.wrapper .sliding-bar ul li .far{
+      width: 50px;
+      text-align: center;
+      margin: 15px 0;
+      margin-left: -10px;
+}
+.wrapper .sliding-bar ul li a{
+      color: #525252 ;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      padding: 10px;
+}
+.wrapper .sliding-bar ul li a:hover{
+      text-decoration: none;
+}
+.content{
+      margin-left: 65px;
+      width: 100%;
+}
+.content .myBadges{
+      background-color: #F5F5F5  ;
+      width: 100%;
+      height: 670px;
+      margin: 5px;
+      border-radius: 10px;
+      text-align: center;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.content .myBadges .header{
+      height: 70px;
+      width: 100%;
+      display: flex;
+      border-bottom: 5px solid #525252;
+}
+.content .myBadges .header h1{
+      color: #525252 ;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 35px;
+      margin-left: 60px;
+      margin-top: 10px;
+}
+.content .myBadges .header h4{
+      font-size: 17px;
+      color: #FF7400;
+      font-weight: 700;
+      margin-top: 35px;
+      margin-left: 750px;
+      cursor: pointer;
+}
+.content .myBadges .header h4:hover{
+      text-decoration: underline;
+}
+.content .myBadges .badges-filter-bar ul{
+      display: flex;
+      padding: 5px;
+      width: 100%;
+      margin-left: 30px;
+      margin-top: -20px;
+      margin-bottom: 10px;
+}
+.content .myBadges .badges-filter-bar ul li{
+      padding: 10px 20px;
+      width: 130px;
+      text-align: center;
+      background-color: #e2dfdf;
+      font-size: 20px;
+      color: #525252;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin: 20px;
+      border-radius: 10px;
+      transition: 0.5s ease;
+      cursor: pointer;
+}
+.content .myBadges .badges-filter-bar ul li a{
+      color: dodgerblue;
+}
+.content .myBadges .badges-filter-bar ul li a:hover{
+      color: dodgerblue;
+      text-decoration: none;
+}
+.content .myBadges .badges-filter-bar ul li:hover{
+      background-color: rgb(255, 202, 103);
+}
+.content .myBadges .badges{
+      margin-top: -20px;
+      width: 100%;
+      height: 400px;
+}
+.content .myBadges .badges .first-badge-row{
+      width: 1200px;
+      height: 160px;
+      text-align: left;
+      margin-left: 30px;
+      display: flex;
+}
+.content .myBadges .badges .second-badge-row{
+      width: 1200px;
+      height: 160px;
+      text-align: left;
+      margin-left: 30px;
+      display: flex;
+}
+.content .myBadges .badges .third-badge-row{
+      width: 1200px;
+      height: 160px;
+      text-align: left;
+      margin-left: 30px;
+      display: flex;
+}
+.first-badge-row .lock{
+      height: 30px;
+      width: 30px;
+      margin-left: -70px;
+      margin-top: -10px;
+}
+.second-badge-row .lock{
+      height: 30px;
+      width: 30px;
+      margin-left: -70px;
+      margin-top: -10px;
+}
+.third-badge-row .lock{
+      height: 30px;
+      width: 30px;
+      margin-left: -70px;
+      margin-top: -10px;
+}
+.p-badge{
+      margin: 5px;
+      height: 120px;
+      width: 140px;
+      margin-right: 20px;
+      background-color: #F5F5F5;
+      text-align: center;
+      margin-bottom: 20px;
+}
+.p-badge img{
+      width: 80px;
+      height: 80px;
+}
+.p-badge h3{
+      font-size: 20px;
+      color: #525252;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-top: 3px;
+}
+.p-badge h4{
+      font-size: 15px;
+      color: #525252;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-top: -10;
+}
+.bg-modal{
+      width: 1370px;
+      height: 680px;
+      background-color: rgba(0, 0, 0, 0.7);
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+}
+.model-content{
+      width: 550px;
+      height: 350px;
+      background-color: white;
+      border-radius: 10px;
+      margin-top: -50px;
+      margin-left: -90px;
+      position: relative;
+      padding: 20px;
+}
+.model-content .model-upper .close{
+      font-size: 30px;
+      margin-top: -50px;
+}
+.model-content .model-upper{
+      margin: 5px;
+      border-bottom: 1px solid gray;
+      width: 100%;
+      height: 40px;
+}
+.model-content .model-upper h1{
+      font-size: 25px;
+      color: #525252;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+}
+.model-content .model-lower{
+      width: 100%;
+      height: 250px;
+      display: flex;
+      margin-top: 20px;
+}
+.model-content .model-lower .right{
+      width: 30%;
+      height: 100%;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      display: block;
+}
+.model-content .model-lower .left{
+      width: 70%;
+      height: 100%;
+      text-align: center;
+      align-items: center;
+}
+.model-content .model-lower .right img{
+      height: 200px;
+      width: 100px;
+      margin: auto;
+}
+.model-content .model-lower .left h2{
+      font-size: 30px;
+      color: #525252;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-right: 70px;
+}
+.model-content .model-lower .left p{
+      font-size: 20px;
+      color: #525252;
+      font-weight: 700;
+      font-family: 'Roboto Condensed', sans-serif;
+      margin-top: 20px;
+}
+.model-content .model-lower .left button{
+      background-color: #FF7400;
+      color: white;
+      font-size: 17px;
+      padding: 7px;
+      border-radius: 5px;
+      margin: 10px;
+}
+.model-content .model-lower .left button a{
+      color: white;
+}
+.model-content .model-lower .left button a:hover{
+      text-decoration: none;
+}
